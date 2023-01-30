@@ -1,0 +1,77 @@
+body{
+    background-color: lightgray;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0px;
+}
+
+h1{
+    font-size:50px;
+}
+.titulo {
+    text-align: center;
+    border: 2px solid;
+    border-color: black;    
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+.nav {
+    display: inline-block;
+   
+    position: relative; 
+}
+.nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 3px 20px 3px 20px;
+    border-color: black;
+    
+}
+
+button:hover{
+    transform:scale(1.2);
+}
+button{
+    position: relative;
+    top: 8px;
+    left: 900px;
+    box-shadow: 2px 2px 2px 1px grey;
+}
+.home {
+    background-color: green;
+   
+   
+}  
+.about, .contact{
+    background-color: blue;
+    
+}
+main, .derecha, .izquierda{
+    display:inline-block;
+}
+
+
+.logo, .hockey{
+    border-radius: 15%;
+    margin: 10px;
+    border: 1px solid;
+    border-color: black;
+}
+p {
+    margin-left: 15px;
+}
+.derecha{
+    width: 75%;
+    }
+.izquierda{
+    width:20%;
+}
+
+footer{
+    background-color:#827b8e;
+    padding: 15px;
+    text-align: center;
+}
