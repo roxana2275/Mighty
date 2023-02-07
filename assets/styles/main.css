@@ -84,6 +84,8 @@ a:hover{
     background-image: url("../../assets/img/hockey1.jpg");
     background-size: cover;
     background-attachment: fixed;
+   
+   
 }
 .contenedor__main__games{
     display: flex;
@@ -108,6 +110,8 @@ a:hover{
     width: 80%;
     color: black;
     font-weight:900;
+
+    
 }
 /*contenedor derecha titulos y parrafos*/
 .contenedor__derecha h3,h4{
@@ -175,4 +179,90 @@ li{
     padding:1em;
     text-align: center;
     border: solid white;
+}
+/*formulario*/
+
+form{
+    color: white;
+    background-color: rgb(56, 56, 56);
+    display: block;
+}
+input, label{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;  
+}       
+fieldset{
+    padding: 2em;
+}
+.form__text{
+    width: 100%;
+}
+@media screen and (max-width: 600px) {
+    .titulo__principal{
+        font-size:15px;
+    }
+    .contenedor__nav a{
+        padding: 0.1em;
+        color: black;
+        margin: 0.5em;
+        font-size: 0.5em;
+    }
+    .titulo__secundario{
+        font-size: 1em;
+        padding: 0;
+    }
+    .contenedor__izquierda{
+        display: none;
+    }
+    .contenedor__derecha__parrafo,
+    .contenedor__derecha h3,
+    .contenedor__derecha p,
+    .contenedor__derecha__rules{
+        font-size: 1em;
+    }
+    .contenedor__derecha{
+        width: 100%;
+    }
+    .contenedor__main_index,
+    .contenedor__main__games,
+    .container__main__rules{
+        background-image: none;
+        padding: 0;
+    }
+    .titulo__secundario_dos,
+    .titulo__terciario,
+    .reglas__parrafo,
+    .reglas__lista{
+        color:white;
+        font-size:1em;
+    }
+    form{
+        font-size:0.5em;
+    }
+    table{
+        width: 100%;
+        margin-left: 0%;
+    }
+    table, th, td {
+        border: 1px solid white;
+        
+    }
+    th, td{
+        text-align: center;
+        font-weight:200;
+        padding: 0em;
+        color:white;
+    }
+    th{
+        background-color: black;
+    }
+    .maps{
+        display: none;
+    }
+    .informacion_parrafo{
+        color: white;
+    }
+
 }
